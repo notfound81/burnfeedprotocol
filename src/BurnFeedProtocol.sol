@@ -19,7 +19,7 @@ contract BurnFeedProtocol {
      * @param uri The URI of the action file.
      * @param burn The number of tokens to be burned to increase visibility.
      */
-    event Actions(address indexed user, string indexed uri, uint256 burn);
+    event Actions(address indexed user, string uri, uint256 burn);
 
     /**
      * @dev Emitted when a user registers a new public key.
